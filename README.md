@@ -1,6 +1,7 @@
 # Investing Dashboard
 
 By: Vishal Nayak
+
 Email: [vrnayak@umich.edu](vrnayak@umich.edu)
 
 ## Overview
