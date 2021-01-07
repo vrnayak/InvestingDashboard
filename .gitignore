@@ -1,0 +1,5 @@
+# .gitignore
+# This file specifies which files should not be committed to GitHub
+
+# Virtual environment
+env/
