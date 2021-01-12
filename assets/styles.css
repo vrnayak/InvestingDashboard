@@ -155,6 +155,7 @@ body {
 .wrapper {
     border-radius: 15px;
     padding: 1%;
+    text-align: left;
     display: inline-block;
     background-color: rgb(28, 36, 47);
 }
@@ -320,6 +321,10 @@ h1 {
     letter-spacing: -.1rem;
     margin: 2rem;
     margin-bottom: 2rem;
+}
+
+#current-positions {
+    color: rgb(186, 163, 13);
 }
 
 h2 {
@@ -578,6 +583,10 @@ li {
 
 table {
     border-collapse: collapse;
+}
+
+td {
+    min-width: 100px;
 }
 
 th:not(.CalendarDay),
