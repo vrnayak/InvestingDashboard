@@ -3,3 +3,9 @@
 
 # Virtual environment
 env/
+
+# dotenv file
+.env
+
+# pycache
+__pycache__/
