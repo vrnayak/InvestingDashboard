@@ -7,8 +7,11 @@ import plotly.express as px
 import dash_core_components as dcc
 import dash_html_components as html
 
+# Import api
+import api.stocks as st
+
 # Import components
-import components.stockTable as st
+import components.positionTable as pt
 
 # First style sheet is for proxima-nova font
 # Second style sheet is for general styling
@@ -28,12 +31,12 @@ colors = {
 def wrap(component):
     return html.Div(
         [component],
-        className='wrapper'    
+        className='wrapper four columns'    
     )
 
 app.layout = html.Div([
     html.H1('Investment Dashboard'), 
-    wrap(st.render())
+    wrap(pt.render())
 ])
 
 if __name__ == '__main__':
